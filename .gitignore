@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+.Python
+
+# Output files
+ml_output_2/
+*.pkl
+*.xlsx
+*.png
+
+# Docker
+.dockerignore
+
+# OS/Editor
+.DS_Store
+.vscode/
+.vscode-server/
+*.swp
+.cache/
+
+# Data (don't upload large data files)
+data/
+*.lvm
+
+# Bash history
+.bash_history
+.bash_logout
